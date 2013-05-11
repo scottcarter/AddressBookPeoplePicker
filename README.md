@@ -1,13 +1,12 @@
-
 Demonstration of using the Address Book People Picker as well as using a callback for Address Book.
  
- We show how to implement the People Picker with the ability to edit existing contacts or
+ I show how to implement the People Picker with the ability to edit existing contacts or
  create new contacts.  Two methods are shown.   
  
  
  Method 1
  
- The first method (must uncomment the define for PERSON_VIEW_CONTROLLER_METHOD1 below)
+ The first method (must uncomment the define for PERSON_VIEW_CONTROLLER_METHOD1 in AddressBookPeoplePickerViewController.m)
  is based on the nice blog article by Scott Sherwood at:
  
  http://www.scott-sherwood.com/ios5-removing-the-cancel-button-on-abpeoplepickernavigationcontroller/
@@ -21,7 +20,7 @@ Demonstration of using the Address Book People Picker as well as using a callbac
  
  Method 2
  
- The second method (comment out the define for PERSON_VIEW_CONTROLLER_METHOD1 below) is a modification
+ The second method (comment out the define for PERSON_VIEW_CONTROLLER_METHOD1 in AddressBookPeoplePickerViewController.m) is a modification
  to Scott Sherwood's approach.  Here we manually put up the ABPersonViewController in the protocol method
  peoplePickerNavigationController:shouldContinueAfterSelectingPerson:
  

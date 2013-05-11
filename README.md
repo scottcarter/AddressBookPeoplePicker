@@ -1,12 +1,12 @@
 
-
 Demonstration of using the Address Book People Picker as well as using a callback for Address Book.
  
  We show how to implement the People Picker with the ability to edit existing contacts or
  create new contacts.  Two methods are shown.   
  
+ 
  Method 1
- ============
+ 
  The first method (must uncomment the define for PERSON_VIEW_CONTROLLER_METHOD1 below)
  is based on the nice blog article by Scott Sherwood at:
  
@@ -18,8 +18,9 @@ Demonstration of using the Address Book People Picker as well as using a callbac
  stop editing mode without also committing any changes that may have been made.
  
  
+ 
  Method 2
- =============
+ 
  The second method (comment out the define for PERSON_VIEW_CONTROLLER_METHOD1 below) is a modification
  to Scott Sherwood's approach.  Here we manually put up the ABPersonViewController in the protocol method
  peoplePickerNavigationController:shouldContinueAfterSelectingPerson:
